@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/everything-like/everything-like.iml" filepath="$PROJECT_DIR$/everything-like/everything-like.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maventest/maven-test.iml" filepath="$PROJECT_DIR$/maventest/maven-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maventest/maventest.iml" filepath="$PROJECT_DIR$/maventest/maventest.iml" />
+    </modules>
+  </component>
+</project>
