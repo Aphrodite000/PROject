@@ -76,7 +76,7 @@ public class FileSave implements ScanCallback{
             if(meta.getDirectory()){
                 ps.setString(4,
                         meta.getPath()+File.separator+meta.getName());
-                ps.setString(5,meta.getPath()+File.separator+meta.getName()+File.separator);
+                ps.setString(5,meta.getPath()+File.separator+meta.getName()+File.separator+"%");
             }
         }catch(Exception e){
             e.printStackTrace();
