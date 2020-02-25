@@ -17,7 +17,7 @@ import java.util.List;
  * 2.并且读取sql文件，（init.sql）
  * 3.再执行sql语句初始化表
  */
-public class DBInit {
+public class DBInit {//第三大步
     //在Controller里面监听方法以被调用
 
     //读取操作

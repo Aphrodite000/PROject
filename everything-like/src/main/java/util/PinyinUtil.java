@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class PinyinUtil {
+public class PinyinUtil {//第一大步
     /**
      * 中文字符格式
      */
@@ -31,10 +31,10 @@ public class PinyinUtil {
         //设置带v，如绿 lv
     }
     //文件名是否包含中文，字符串是否包含文件
-    public static boolean containChinese(String name){
+    public static boolean containsChinese(String name){
         //String中matches方法，用来匹配  matches(.)匹配任意字符   matches(a[bc])匹配ab或者ac   []是任意一个的意思
         //name.matches(CHINESE_PATTERN );一个字符匹配的
-        return name.matches("."+CHINESE_PATTERN +".");//前后加上.就全部匹配，中间任意字符串匹配上
+        return name.matches(".*"+CHINESE_PATTERN +".*");//前后加上.就全部匹配，中间任意字符串匹配上
         //前后都是任意字符，任意字符可以出现0次和多次，中间只要有任意一个字符匹配我的中文就行
     }
 

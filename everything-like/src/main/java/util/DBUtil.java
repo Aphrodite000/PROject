@@ -15,7 +15,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DBUtil {
+public class DBUtil { //第二大步
     //工具类
     //提供数据库工具，实现一些封装
 
@@ -43,7 +43,7 @@ public class DBUtil {
                     config.setDateStringFormat(Util.DATE_PATERN);
                     //初始化一个sqlite数据库对象   初始化出来日期格式的一个配置
                     DATA_SOURCE=new SQLiteDataSource(config);
-                    ((SQLiteDataSource) DATA_SOURCE).setUrl(getUrl());
+                    ((SQLiteDataSource) DATA_SOURCE).setUrl(getUrl());//主要通过URL来设置数据库文件
                 }
             }
         }

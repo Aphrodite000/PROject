@@ -18,4 +18,8 @@ public class Main extends Application {//打开客户端，加载插件文件，
         launch(args);
     }
     //launch方法会默认调start方法
+
+    //显示客户端图像
+    //入口类   加载javafx卑职  渲染客户端空间  加载 app.Controller  initialize 初始化执行
+    //choose 每次选择目录调用该方法
 }
